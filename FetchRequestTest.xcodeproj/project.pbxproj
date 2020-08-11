@@ -15,6 +15,8 @@
 		D576D16724E214A90022303F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D576D13C24E214A80022303F /* ContentView.swift */; };
 		D576D16824E214A90022303F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D576D13D24E214A90022303F /* Assets.xcassets */; };
 		D576D16924E214A90022303F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D576D13D24E214A90022303F /* Assets.xcassets */; };
+		D576D17A24E214BF0022303F /* FetchRequestTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D576D17824E214BF0022303F /* FetchRequestTest.xcdatamodeld */; };
+		D576D17B24E214BF0022303F /* FetchRequestTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D576D17824E214BF0022303F /* FetchRequestTest.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		D576D15D24E214A90022303F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D576D16124E214A90022303F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D576D16324E214A90022303F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D576D17924E214BF0022303F /* FetchRequestTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FetchRequestTest.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				D576D13B24E214A80022303F /* FetchRequestTestApp.swift */,
 				D576D13C24E214A80022303F /* ContentView.swift */,
 				D576D13D24E214A90022303F /* Assets.xcassets */,
+				D576D17824E214BF0022303F /* FetchRequestTest.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -309,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D576D16624E214A90022303F /* ContentView.swift in Sources */,
+				D576D17A24E214BF0022303F /* FetchRequestTest.xcdatamodeld in Sources */,
 				D576D16424E214A90022303F /* FetchRequestTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D576D16724E214A90022303F /* ContentView.swift in Sources */,
+				D576D17B24E214BF0022303F /* FetchRequestTest.xcdatamodeld in Sources */,
 				D576D16524E214A90022303F /* FetchRequestTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +702,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D576D17824E214BF0022303F /* FetchRequestTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D576D17924E214BF0022303F /* FetchRequestTest.xcdatamodel */,
+			);
+			currentVersion = D576D17924E214BF0022303F /* FetchRequestTest.xcdatamodel */;
+			path = FetchRequestTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D576D13624E214A80022303F /* Project object */;
 }
